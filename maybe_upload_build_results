@@ -11,6 +11,10 @@
 #
 ################################################################################################
 
+echo 'where is b2?'
+which b2
+echo '====' 
+
 ZIP_TO_UPLOAD="$1"
 if test -z "$ZIP_TO_UPLOAD"; then
     echo "ERROR: missing name of the zip file to upload"

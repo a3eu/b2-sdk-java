@@ -18,6 +18,7 @@ env:
 before_install:
   - mkdir -p ~/.gradle && echo "org.gradle.daemon=false" >> ~/.gradle/gradle.properties
   - sudo -H pip install b2
+  - which b2
 
 script:
   #
