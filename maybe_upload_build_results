@@ -13,7 +13,9 @@
 
 echo 'where is b2?'
 which b2
+find /usr/local -iname '*b2*'
 echo '====' 
+
 
 ZIP_TO_UPLOAD="$1"
 if test -z "$ZIP_TO_UPLOAD"; then
